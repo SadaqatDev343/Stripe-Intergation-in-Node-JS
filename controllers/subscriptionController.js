@@ -1,4 +1,4 @@
-const stripe = require('stripe')("sk_test_51PpNXiP0cOeZkyGgXZGiyFcg1Js3cBqS3BzaeSkQWgQArOXyt7i1xrttfTydRiVZn6YJZXhHdpte5R9S8yT209fW00s64uJlF3"); // Load your Stripe secret key from environment variables
+const stripe = require('stripe')("Stripe secret key"); // Load your Stripe secret key from environment variables
 
 // // Create a customer
 // exports.createCustomer = async (req, res) => {

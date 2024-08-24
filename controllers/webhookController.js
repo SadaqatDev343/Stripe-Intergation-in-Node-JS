@@ -1,5 +1,5 @@
 const stripe = require('../config/stripe');
-const endpointSecret = "we_1PqZ1lP0cOeZkyGgTpfCx8jj"
+const endpointSecret = "STRIPE_WEBHOOK_SECRET"
 
 const handleWebhook = async (req, res) => {
   console.log('function of  webhook');
